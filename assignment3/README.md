@@ -26,3 +26,4 @@ This project contains a Bash script (`user_management.sh`) that automates user a
    ```bash
    chmod +x /user_management.sh
    ```
+   To run user-management.sh script provide the path to the users.csv file as an argument. run as sudo
