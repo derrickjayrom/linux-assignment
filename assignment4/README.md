@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project contains a Bash script (`netcheck.sh`) that performs basic network diagnostics. It helps troubleshoot network issues by checking connectivity, resolving DNS, and testing specific ports. The results are logged for future reference.
+This project contains a Bash script (`net_diagnosis.sh`) that performs basic network diagnostics. It helps troubleshoot network issues by checking connectivity, resolving DNS, and testing specific ports. The results are logged for future reference.
 
 ## Features
 
@@ -30,8 +30,11 @@ This project contains a Bash script (`netcheck.sh`) that performs basic network 
 
 ## Usage
 
-1. Save the script as `netcheck.sh` in the `assignment4` directory.
+1. Save the script as `net_diagnosis.sh` in the `assignment4` directory.
 2. Make the script executable:
    ```bash
    chmod +x /home/derrick/linux-assignment/assignment4/netcheck.sh
    ```
+   sudo ./net_diagnosis.sh [Run the script with sudo to ensure it has the necessary permissions]
+
+sudo ./net_diagnosis.sh --email to simulate emailing results
