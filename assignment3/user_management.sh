@@ -51,7 +51,7 @@ while IFS=',' read -r username group; do
         # Log the created user with a timestamp
         echo "$(date): Created user $username with group $group" >> "$LOG_FILE"
 
-        # Bonus: Create a welcome email in the user's home directory
+        # Create a welcome email in the user's home directory
         WELCOME_FILE="/home/$username/welcome.txt"
         echo "Welcome, $username!" > "$WELCOME_FILE"
         echo "Your account has been created successfully." >> "$WELCOME_FILE"
