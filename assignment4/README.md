@@ -33,7 +33,7 @@ This project contains a Bash script (`net_diagnosis.sh`) that performs basic net
 1. Save the script as `net_diagnosis.sh` in the `assignment4` directory.
 2. Make the script executable:
    ```bash
-   chmod +x /home/derrick/linux-assignment/assignment4/netcheck.sh
+   chmod +x /home/derrick/linux-assignment/assignment4/net_diagnosis_.sh
    ```
    sudo ./net_diagnosis.sh [Run the script with sudo to ensure it has the necessary permissions]
 
