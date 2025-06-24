@@ -1,0 +1,5 @@
+The quick brown fox jumps over the lazy dog.
+This is a sample text file for testing the text analyzer script.
+The script should count words, lines, and characters.
+It should also find the most common words and the longest word.
+The quick brown fox is quick and clever.
