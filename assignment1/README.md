@@ -24,7 +24,37 @@ This project contains a Bash script (`sysinfo.sh`) that generates a system infor
 ## Usage
 
 1. Clone the repository or copy the script to your desired location.
-2. Make the script executable:
+   - If using Git:
    ```bash
-   chmod +x sysinfo.sh
+   git clone <repository-url>
+   cd linux-assignment/assignment1
    ```
+
+- Or Manually download/Copy `sysinfo.sh` to your preferred directory.
+
+2. Make the script executable:
+
+```bash
+chmod +x system.sh
+```
+
+3. Run the script with sudo to ensure it can write logs to `/var/log/sysdash/`:
+
+```bash
+sudo ./sysinfo.sh
+```
+
+4. View the output:
+
+- The script will display system information in your terminal.
+- It will save the output to log file name `sysdash_YYYY-MM-DD.log` in `/var/log/sysdash/`.
+
+5. Check the log files:
+
+- To view the latest log, run:
+
+```bash
+sudo cat /var/log/sysdash/sysdash_$(date +'%Y-%m-%d').log
+```
+
+- Or browse to `/var/log/sysdash/` using your file manager to open the logs.
